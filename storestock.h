@@ -60,7 +60,7 @@ float divide(float num[],float numlen){ // This function returns the division of
 
 float mean(float num[], int len_num){ // This function returns the arithmetic mean of given array's items
 
-    return divide(((sum(num,len_num)),len_num),2); // Returns the arithmetic mean, using the known formula (sum of items divided by number of items)
+    return divide(sum(num,len_num),len_num); // Returns the arithmetic mean, using the known formula (sum of items divided by number of items)
 }
 
 float max(float num[], int len_num){ // This function returns the maximum item of given array
